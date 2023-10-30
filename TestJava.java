@@ -2,11 +2,12 @@ package testjava;
 import java.util.Scanner;
 
 public class TestJava {
+    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Choose task: 1 - 'Repetitions' or 2 - 'Interviews'");
         String k = in.nextLine();
-        if (k.equals("1")){
+        if (k.equals("1")) {
             String s = in.nextLine();
             int n = in.nextInt(), i = 0;
             do {
@@ -14,6 +15,7 @@ public class TestJava {
                 i++;
             }
             while (i < n);
+            //boolean t = true;
         }
         else if (k.equals("2")) {
             boolean flag = true;
